@@ -13,7 +13,7 @@ export default function Person() {
                     <p><strong>Phone:</strong> +375 29 317 36 73</p>
                     <p><strong>Email:</strong> maria@ecomproject.com</p>
                     <p>
-                        <strong>Address:</strong><br />
+                        <strong>Primary Contact Address:</strong><br />
                         Kopische st Aviachyonnaja 13-127<br />
                         220081, Belarus
                     </p>
