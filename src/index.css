@@ -160,3 +160,105 @@ body {
     padding: 50px 20px;
   }
 }
+.products li {
+  padding: 12px 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.products li:hover {
+  background: #81c784; /* светло-зеленый при наведении */
+  color: #fff;
+}
+
+.products li.active {
+  background: #4caf50; /* зелёный для выбранного */
+  color: #fff;
+}
+
+.product-preview {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.product-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.contact-person {
+  display: flex;
+  align-items: flex-start;
+  background: #f7f9f7; /* светлый фон */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.person-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #4caf50;
+}
+
+.person-info h4 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.person-info p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.person-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.person-info ul li::before {
+  content: "—";
+  margin-right: 6px;
+  color: #4caf50; /* зелёный акцент */
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .contact-person {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .person-photo {
+    margin-bottom: 15px;
+  }
+}
+.contact-section {
+  background: #f7f9f7; /* светлый зеленоватый/серый фон */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+.contact-section p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.contact-section strong {
+  color: #333;
+}

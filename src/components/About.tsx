@@ -19,14 +19,6 @@ export default function About() {
                 materials and skilled artisans to craft meaningful pieces that enrich
                 everyday life.
             </p>
-
-            <h3>Leadership</h3>
-            <p><strong>Maryia Arlova</strong></p>
-            <p>Supply Chain & Logistics Management</p>
-            <ul>
-                <li>Supplier Management</li>
-                <li>Inventory Management</li>
-            </ul>
         </section>
     );
 }
