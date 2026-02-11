@@ -131,7 +131,7 @@ const ProfileHeader = () => {
                                             <img
                                                 src="/assets/photo_ava.jpg"
                                                 alt="Maryia Arlova"
-                                                className="h-16 w-16 rounded-2xl object-cover border border-neutral-200"
+                                                className="h-46 w-46 rounded-2xl object-cover border border-neutral-200"
                                             />
                                             <div>
                                                 <div
@@ -173,8 +173,9 @@ const ProfileHeader = () => {
                                                 <dd className="text-neutral-900">
                                                     Aviachyonnaja St 13-127
                                                     <br/>
-                                                    Kopische, 220081
-                                                    <br/>
+                                                    Kopische
+                                                    <p>220081</p>
+
                                                     Belarus
                                                 </dd>
                                             </div>
@@ -448,8 +449,9 @@ const Contact = () => (
                         <div className="mt-1 text-sm text-neutral-700">
                             Aviachyonnaja St 13-127
                             <br/>
-                            Kopische, 220081
-                            <br/>
+                            Kopische
+                            <p>  220081</p>
+
                             Belarus
                         </div>
                     </div>
